@@ -148,7 +148,7 @@ export const siteConfig: SiteConfig = {
 			theme: "obsidian",
 			// 是否启用兼容 Python-Markdown 风格的 admonition 语法（!!!和???语法）
 			// 注意：只有 theme 配置成 obsidian 主题才能基本支持这些语法，其他主题会有样式问题或不兼容的情况
-			enablePythonMarkdownAdmonitions: false,
+			enablePythonMarkdownAdmonitions: true,
 		},
 		// 文章页底部的"上次编辑时间"卡片开关
 		showLastModified: true,
