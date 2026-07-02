@@ -9,10 +9,10 @@ export const siteConfig: SiteConfig = {
 	title: "半只耳の小窝",
 
 	// 站点副标题
-	subtitle: "哈吉米基米西",
+	subtitle: "哈吉米吉米西",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://hi.yyzq.fun",
 
 	// 站点描述
 	description:
@@ -21,6 +21,7 @@ export const siteConfig: SiteConfig = {
 	// 站点关键词
 	keywords: [
 		"Firefly",
+		"半只耳",
 		"Fuwari",
 		"Astro",
 		"ACGN",
