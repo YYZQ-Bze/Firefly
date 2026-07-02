@@ -79,7 +79,7 @@ export const siteConfig: SiteConfig = {
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "Firefly",
+		title: "半只耳",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
@@ -91,7 +91,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	// 站点开始日期，用于统计运行天数
-	siteStartDate: "2025-01-01",
+	siteStartDate: "2026-07-02",
 
 	// 站点时区（IANA 时区字符串），用于格式化bangumi、rss里的构建日期时间等等..
 	// 示例："Asia/Shanghai", "UTC", 如果为空，则按照构建服务器的时区进行时区转换
@@ -100,17 +100,17 @@ export const siteConfig: SiteConfig = {
 	// 页面开关配置 - 控制特定页面的访问权限，设为false会返回404并自动隐藏对应的导航栏菜单项
 	pages: {
 		// 友链页面开关
-		friends: true,
+		friends: false,
 		// 打赏页面开关
-		sponsor: true,
+		sponsor: false,
 		// 留言板页面开关，需要配置评论系统
 		guestbook: true,
 		// 番组计划页面开关，含追番、游戏、书籍和音乐
-		bangumi: true,
+		bangumi: false,
 		// 相册页面开关
 		gallery: true,
 		// 追番页面开关
-		anime: true,
+		anime: false,
 	},
 
 	// 分类导航栏开关，在首页和归档页顶部显示分类快捷导航
@@ -145,7 +145,7 @@ export const siteConfig: SiteConfig = {
 		// 提醒框（Admonitions）配置，修改后需要重启开发服务器才能生效
 		// 主题：'github' | 'obsidian' | 'vitepress' | 'docusaurus'，每个主题风格和语法不同，可根据喜好选择
 		rehypeCallouts: {
-			theme: "github",
+			theme: "obsidian",
 			// 是否启用兼容 Python-Markdown 风格的 admonition 语法（!!!和???语法）
 			// 注意：只有 theme 配置成 obsidian 主题才能基本支持这些语法，其他主题会有样式问题或不兼容的情况
 			enablePythonMarkdownAdmonitions: false,
