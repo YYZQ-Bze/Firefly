@@ -23,6 +23,14 @@ export const galleryConfig: GalleryConfig = {
 			date: "2026-07-02",
 			tags: ["随拍"],
 			cover: "public/gallery/lift-2026/予与星.jpg",
+		},
+		{
+			id: "Kids",
+			name: "小孩",
+			description: "散养小孩的搞笑时刻！",
+			location:"Wechat",
+			date: "2027-07-04",
+			tags: ["截图"],
 		}
 	],
 
